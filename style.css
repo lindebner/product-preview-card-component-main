@@ -73,7 +73,7 @@ img {
   gap: 1em;
 }
 
-.card-btn {
+.cart-btn {
   background-color: hsl(158, 36%, 37%);
   border: none;
   color: white;
@@ -84,6 +84,14 @@ img {
   justify-content: center;
   gap: 0.8rem;
   font-weight: 600;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+}
+
+.cart-btn:active {
+  background-color: hsl(158, 42%, 18%);
 }
 
 .product-description {
